@@ -1,8 +1,13 @@
-const express = require('express')
-const app = express()
+var express = require('express')
+var app = express()
+
 app.use(express.static('www'));
-app.all('/', (req, res) => {
-    console.log("Just got a request!")
-    res.send('Yo!')
+
+var server = app.listen(process.env.PORT || 8000, function () {
+
+    var host = server.address().address
+    var port = server.address().port
+
+    console.log('Express app listening at http://%s:%s', host, port)
+
 })
-app.listen(process.env.PORT || 3000)
