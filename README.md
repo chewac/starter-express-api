@@ -1,8 +1,7 @@
-# starter-express-api
-
-This is the simplest possible nodejs api using express that responds to any request with: 
+# mediapipe
+## node.js
 ```
-Yo!
+https://mesh.cyclic.app/
 ```
 
 ### Deploy it in 7 seconds: 
