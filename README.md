@@ -1,4 +1,4 @@
-# mediapipe
+# mediapipe mesh
 ## node.js
 ```
 https://mesh.cyclic.app/
